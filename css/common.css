@@ -11,4 +11,158 @@ body {
     background-color: #fafafa;
     color: #212121;
     line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-task-one {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 440px;
+    height: 888px;
+    background-color: #fff;
+
+}
+
+.categories-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f6f6fe;
+    margin-bottom: 24px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+
+    /* line-height: 32px; */
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding: 16x;
+}
+
+.animals {
+    border-radius: 8px;
+    padding: 16px;
+    width: 392px;
+    height: 264px;
+}
+
+.products {
+    border-radius: 8px;
+    padding: 16px;
+    width: 392px;
+    height: 216px;
+}
+
+.technologies {
+    border-radius: 8px;
+    padding: 16px;
+    width: 392px;
+    height: 312px;
+}
+
+.dif-list {
+    margin-top: 8px;
+}
+
+.list-animal {
+    width: 360px;
+    height: 184px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lists-products {
+    border-radius: 8px;
+
+    width: 392px;
+    height: 216px;
+
+    gap: 8px;
+}
+
+.lists-technologies {
+    width: 360px;
+    height: 232px;
+    gap: 8px;
+}
+
+
+/* task 2 */
+.container-task-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery li {
+    width: calc(33.33% - 16px);
+    box-sizing: border-box;
+
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+/* task 3*/
+.container-input {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 136px;
+}
+
+.input {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
 }
