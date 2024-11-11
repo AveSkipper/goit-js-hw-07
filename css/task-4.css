@@ -1,0 +1,35 @@
+.login-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 360px;
+}
+
+.login-form label {
+    display: block;
+    font-size: 16px;
+}
+
+.login-form input,
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5px 0 15px;
+}
+
+.login-form input {
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    background: #4e75ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #6c8cff;
+}

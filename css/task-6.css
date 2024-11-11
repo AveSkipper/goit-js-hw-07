@@ -1,0 +1,49 @@
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#controls input[type="number"] {
+    padding: 5px;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#controls button[data-create] {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4E75FF;
+    color: white;
+}
+
+#controls button[data-create]:hover {
+    background-color: #6C8CFF;
+}
+
+#controls button[data-destroy] {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF4E4E;
+    color: white;
+}
+
+#controls button[data-destroy]:hover {
+    background-color: #FF7070;
+}
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+}

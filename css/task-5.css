@@ -1,0 +1,17 @@
+.widget {
+    text-align: center;
+}
+
+button.change-color {
+    background-color: #4E75FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button.change-color:hover {
+    background-color:#6C8CFF;
+}
